@@ -4,7 +4,7 @@
   uses: joanroig/metrix@v2.4.1
   with:
     # GitHub token for authentication
-    GITHUB_TOKEN: 
+    GITHUB_TOKEN: ${{TOKEN}}
     # GitHub username for displaying data
     GITHUB_USERNAME: FiliaXuars 
     # Application log level
