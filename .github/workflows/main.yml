@@ -1,0 +1,65 @@
+            - name: Generate Metrix
+  # You may pin to the exact commit or the version.
+  # uses: joanroig/metrix@52422457caf05a7d0ea6571c511604c5e954d16c
+  uses: joanroig/metrix@v2.4.1
+  with:
+    # GitHub token for authentication
+    GITHUB_TOKEN: 
+    # GitHub username for displaying data
+    GITHUB_USERNAME: FiliaXuars 
+    # Application log level
+    LOG_LEVEL: # optional, default is INFO
+    # FFmpeg log level
+    FFMPEG_LOG_LEVEL: # optional, default is ERROR
+    # Main font size
+    FONT_SIZE: # optional, default is 20
+    # Symbol font size
+    SYMBOL_FONT_SIZE: # optional, default is 20
+    # Path to the font file
+    FONT_PATH: # optional, default is assets/MxPlus_IBM_BIOS.ttf
+    # Path to the symbol font file
+    SYMBOL_FONT_PATH: # optional, default is assets/MxPlus_IBM_BIOS.ttf
+    # Color of the background (CSS color names, hex codes, 'random', 'random-light', 'random-dark', 'complementary', 'contrasting', 'shade', 'shade-light', 'shade-dark')
+    BACKGROUND_COLOR: # optional, default is random
+    # Color of the text (CSS color names, hex codes, 'random', 'random-light', 'random-dark', 'complementary', 'contrasting', 'shade', 'shade-light', 'shade-dark')
+    TEXT_COLOR: # optional, default is random
+    # Minimum color contrast
+    MINIMUM_CONTRAST: # optional, default is 2
+    # Text to display
+    TEXT: # optional, default is {username}'s GitHub Metrix
+------------------------------
+
+Joined GitHub: {created_at}
+Followed by: {followers} Users
+Owner of: {total_repos} Repos
+
+Total Commits: {total_commits}
+Total Stars: {total_stars}
+
+Data updated: {updated_date}
+
+    # Character used for typing effect
+    TYPING_CHARACTER: # optional, default is █
+    # Enable or disable the activity section
+    ACTIVITY: # optional, default is true
+    # Text for the activity section
+    ACTIVITY_TEXT: # optional, default is Last month commit activity:
+    # Number of days for activity
+    ACTIVITY_DAYS: # optional, default is 29
+    # Frames per second for the GIF, recommended to be 50 or below
+    FPS: # optional, default is 50
+    # Enable or disable looping the GIF
+    LOOP: # optional, default is false
+    # Width of the GIF
+    WIDTH: # optional, default is 608
+    # Height of the GIF
+    HEIGHT: # optional, default is 342
+    # Enable or disable glitches
+    GLITCHES: # optional, default is true
+    # Maximum amount of glitches at the same time
+    MAX_GLITCHES: # optional, default is 4
+    # Probability in percentage of a glitch happening in a frame, between 0 and 100
+    GLITCH_PROBABILITY: # optional, default is 3
+    # Output file path for the GIF, if the path is relative it will be saved in the working directory
+    OUTPUT_FILE_PATH: # optional, default is metrix.gif
+          
