@@ -17,7 +17,7 @@ jobs:
       - name: Generate Metrix
         uses: joanroig/metrix@main
         with:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           GITHUB_USERNAME: ${{ github.actor }}
           # You can add more customization parameters here
 
